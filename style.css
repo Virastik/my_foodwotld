@@ -663,75 +663,124 @@ footer {
 @media (max-width: 378px) {
     .container {
         max-width: 100%;
+        padding: 0 10px; /* Добавляем отступы по бокам для лучшего восприятия */
     }
 
     .logo {
-        font-size: 24px;
+        font-size: 22px; /* Уменьшаем размер логотипа */
+        margin: 5px; /* Уменьшаем отступы */
     }
 
     .nav-links {
-        font-size: 20px;
+        font-size: 18px; /* Уменьшаем размер шрифта навигации */
+        gap: 8px; /* Уменьшаем расстояние между ссылками */
+        margin: 10px 0; /* Уменьшаем отступы */
     }
 
     .main_slogan-h1 {
-        font-size: 28px;
+        font-size: 24px; /* Уменьшаем размер заголовка */
+        margin-top: 10px; /* Уменьшаем отступ сверху */
     }
 
     .main_slogan-text {
-        font-size: 18px;
+        font-size: 16px; /* Уменьшаем размер текста */
+        margin-top: -20px; /* Корректируем отступ */
     }
 
     .main_slogan-btn {
-        font-size: 20px;
-        padding: 8px 20px;
+        font-size: 18px; /* Уменьшаем размер кнопки */
+        padding: 8px 20px; /* Уменьшаем отступы внутри кнопки */
     }
 
     .menu-section1 {
-        font-size: 32px;
+        font-size: 28px; /* Уменьшаем размер заголовка меню */
+        margin: -30px 0; /* Корректируем отступы */
     }
 
     .menu h1 {
-        font-size: 24px;
+        font-size: 22px; /* Уменьшаем размер заголовков в меню */
+        padding: 10px; /* Уменьшаем отступы */
+        margin-top: 30px; /* Корректируем отступ сверху */
     }
 
     .salad-card {
-        width: 100%;
+        width: 100%; /* Карточки занимают всю ширину */
+        margin-top: 20px; /* Уменьшаем отступ сверху */
+    }
+
+    .salad-info .description {
+        font-size: 16px; /* Уменьшаем размер описания */
+    }
+
+    .salad-info .price {
+        font-size: 20px; /* Уменьшаем размер цены */
+    }
+
+    .order-btn {
+        font-size: 16px; /* Уменьшаем размер кнопки заказа */
+        padding: 10px 20px; /* Уменьшаем отступы внутри кнопки */
+    }
+
+    .promotion-box {
+        padding: 15px; /* Уменьшаем отступы внутри акции */
     }
 
     .promotion-text h3 {
-        font-size: 28px;
+        font-size: 24px; /* Уменьшаем размер заголовка акции */
     }
 
     .promotion-text p {
-        font-size: 16px;
+        font-size: 14px; /* Уменьшаем размер текста акции */
     }
 
     .order-title {
-        font-size: 28px;
+        font-size: 24px; /* Уменьшаем размер заголовка заказа */
     }
 
     .order-items {
-        min-width: 100%;
+        min-width: 100%; /* Занимают всю ширину */
+        padding: 10px; /* Уменьшаем отступы */
     }
 
     .order-form {
-        width: 100%;
+        width: 100%; /* Форма занимает всю ширину */
+        padding: 15px; /* Уменьшаем отступы */
     }
 
     .order-form h2 {
-        font-size: 24px;
+        font-size: 20px; /* Уменьшаем размер заголовка формы */
     }
 
     .order-form input,
     .order-form textarea {
-        font-size: 12px;
+        font-size: 12px; /* Уменьшаем размер шрифта ввода */
+        padding: 8px; /* Уменьшаем отступы внутри полей ввода */
     }
 
     .order-btn {
-        font-size: 16px;
+        font-size: 14px; /* Уменьшаем размер кнопки подтверждения заказа */
+        padding: 10px 15px; /* Уменьшаем отступы внутри кнопки */
     }
 
     footer {
-        font-size: 18px;
+        font-size: 16px; /* Уменьшаем размер текста в футере */
+        padding: 15px 0; /* Уменьшаем отступы */
+    }
+
+    .cart-item img {
+        width: 80px; /* Уменьшаем размер изображения в корзине */
+        height: 80px;
+    }
+
+    .cart-item-info h3 {
+        font-size: 16px; /* Уменьшаем размер заголовка в корзине */
+    }
+
+    .cart-item-info p {
+        font-size: 14px; /* Уменьшаем размер текста в корзине */
+    }
+
+    .cart-item-total {
+        font-size: 16px; /* Уменьшаем размер итоговой суммы */
     }
 }
