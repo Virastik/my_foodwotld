@@ -528,17 +528,6 @@ footer {
     right: 0;
 }
 
-/* Базовые стили для всех устройств */
-* {
-    font-family: "Yanone Kaffeesatz", serif;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px; /* Добавляем отступы по бокам для мобильных устройств */
-}
-
 /* Адаптивность для устройств с шириной экрана до 1200px (планшеты и небольшие ноутбуки) */
 @media (max-width: 1200px) {
     .container {
